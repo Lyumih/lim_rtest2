@@ -1,0 +1,7 @@
+$lim_rtest2_logo_demo $mol_example_small
+	sub /
+		<= Logo $lim_rtest2_logo
+	tags /
+		\logo
+	aspects /
+		\UI/Logo
