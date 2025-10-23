@@ -28,6 +28,7 @@ jobs:
             - uses: hyoo-ru/gh-deploy@v4.4.1
               if: github.ref == 'refs/heads/master'
               with:
-                  target-folder: 'lim/rtest2/app/-' #FIXME path to build app
+                  folder: 'lim/rtest2/app/-'
+                  target-folder: 'docs' #FIXME path to build app
 
 ## Тут отредачить, чтобы storybook Тоже создавался
