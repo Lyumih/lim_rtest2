@@ -13,5 +13,15 @@
 		<div mol_view_root="$lim_rtest2_app"></div>
 		<!--FIXME change to actual app name -->
 		<script src="web.js" charset="utf-8"></script>
-	</body>
+	
+				<script src="/mol/build/client/client.js" charset="utf-8"></script>
+				<script src="web.test.js" charset="utf-8"></script>
+				<script>
+					addEventListener( 'load', ()=> setTimeout( ()=> {
+						const audit =  document.createElement( 'script' )
+						audit.src = 'web.audit.js'
+						document.head.appendChild( audit )
+					}, 500 ) )
+				</script>
+				</body>
 </html>

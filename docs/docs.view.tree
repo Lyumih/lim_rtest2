@@ -1,4 +1,0 @@
-$lim_rtest2_docs $mol_app_demo
-	menu_title \Демонстрации
-	source_prefix \https://github.com/Lyumih/lim_rtest2/tree/master/
-	sources_uri \https://github.com/Lyumih/lim_rtest2/
