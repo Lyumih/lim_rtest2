@@ -1,0 +1,10 @@
+{
+	"name": "lim_rtest2_docs",
+	"short_name": "lim_rtest2_docs",
+	"description": "",
+	"id": "lim_rtest2_docs",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
